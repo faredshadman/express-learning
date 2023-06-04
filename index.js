@@ -6,7 +6,7 @@ app.use(express.static("./methods-public"));
 // parse form data
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
+console.log("Change with ubuntu")
 // routes
 app.use("/api/people", people);
 app.use("/login", auth);
